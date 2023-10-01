@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.bgheader {
+    background-image: url("https://preview.colorlib.com/theme/easylo/assets/img/hero/h1_hero1.jpg.webp");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position:absolute;
+    background-color: #1bb92d;
+    top: 0;
+    bottom: 187px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(16,201,143,0.4);
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar {
+    position: relative;
+    z-index: 2;
+}
+ 
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.left-navbar {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+.right-navbar {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    padding: 28px 5px;
+    vertical-align: top;
+}
+
+
+nav {
+    width: 100%;
+    top: 0;
+    padding-top: 15px;
+} 
+
+.right-navbar a {
+    padding-left: 40px;
+}
+
+.navbutton {
+    background-color: #10c98f;
+    padding: 20px 40px;
+    margin-left: 10px;
+}
+
+.container {
+    padding-left: 300px;
+    padding-right: 120px;
+}
+
+.sect1-menu {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    width: 180px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background-color: white;
+    color: black;
+}
+
+.sect1-menu:hover .submenu {
+    display: block;
+}
+
+.submenu p {
+    padding: 10px;
+}
+
+
+
+
+.main-text {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    width: 400px;
+    bottom: 50px;
+    left:  100px;
+    font-weight: 700;
+    top: 80px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.straight-line {
+    display: block;
+    background-color: #fff;
+    width: 110px;
+    height: 3px;
+    color: #fff;
+    margin-top: 95px;
+    left:  100px;
+    position: relative;
+}
+.additional-text {
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 100px;
+    width: 370px;
+    height: 20px;
+    font-size: 23px;
+    top: 20px;
+}
+
+.service-button {
+    position: absolute;
+    color: white;
+    font-family: 'Chivo', sans-serif;
+    bottom: 400px;
+    left: 130px;
+    border: 2px solid white;
+    padding: 20px 43px;
+    z-index: 1;
+}
+
+.service-button:hover {
+    background-color: #10c98f;
+    transition: 0.5s;
+
+}
+.header-right {
+    height: 540px;
+    width: 415px;
+    background-color: white;
+    position: relative;
+    bottom: 242px;
+    left: 60%;
+    box-sizing: border-box;
+}
+.card-element1 {
+    top: 40px;
+    position: absolute;
+    bottom: 90px;
+    color: #0F4332;
+    font-size: 30px;
+    left: 50px;
+}
+.additional-text2 {
+    color: #3F4854;
+    font-size: 14px;
+    position: absolute;
+    top: 80px;
+    left: 75px;
+}
+
+.green-line {
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    background-color: #10c98f;
+    border: 2px solid #10C98F;
+    top: 130px;
+    left: 150px;
+}
+
+.additional-text3 {
+    color: #4c5753;
+    position: relative;
+    font-size: 12px;
+    top: 150px;
+    display: block;
+    left: 30px;
+    font-family: 'Chivo', sans-serif;
+}
+
+ .additional-text4 {
+    color: #4c5753;
+    font-size: 12px;
+    top: 250px;
+    display: block;
+    left: 30px;
+    font-family: 'Chivo', sans-serif;
+    position: absolute;
+ }
+
+ #category-select2  {
+    top: 40px;
+    position: absolute;
+    margin-top: 235px;
+ }
+
+ option {
+    background-color: #10c98f;
+ }
+
+.selecting-sector {
+
+    position:absolute;
+    width:300px;
+    height:70px;
+    z-index:3;
+  }
+
+  select{
+      background:transparent;
+      border: 1.5px solid gray;
+      width:100%;
+      height:80%;
+      font-size:15px;
+      z-index:2;
+      padding:0 10px;
+      position : relative;
+      -webkit-appearance:none;
+      -moz-appearance:none;
+      appearance:none;
+      top: 230%;
+      left: 10%;
+    }
+  
+  
+  select:hover{
+        cursor:pointer;
+      }
+  select:after{
+        content: '\25bc';
+        font-size:25px;
+        width:50px;
+        height:30px;
+        position : absolute;
+        background-color:#FF8080;
+        z-index:1;
+        right:20px;
+        top:20px;
+    text-align:center;}
+
+    .charge {
+        position: absolute;
+        top: 350px;
+        left: 31px;
+        font-size: 12px;
+    }
+
+    .charge p span {
+        color: #10c98f;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .button-in-box {
+        position: absolute;
+        top: 400px;
+        left: 30px;
+        color: whitesmoke;
+        background-color: #10c98f;
+        padding: 10px 100px;
+        font-size: 16px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .bottom-text {
+        position: absolute;
+        top: 460px;
+        left: 45px;
+        width: 350px;
+        color: #4c5753;
+    }
+
+    #second-section {
+        background-color: #f4fcfa;
+        height: 80vh;
+    }
+
+    .Second-page-title {
+        text-align: center;
+    }
+
+    .Title {
+        color: #0f4332;
+        padding-right: 200px;
+        font-size: 40px;
+        padding-top: 90px;
+    }
+
+    .green-line2 {
+        display: inline-block;
+        
+    }
+
+    .line {
+        display: block;
+        width: 100px;
+        height: 4px;
+        color: #10C98F;
+        background-color: #10C98F;
+        margin-right: 170px;
+        margin-top: 30px;
+    }
+
+.second-page-p {
+    padding-right: 200px;
+    color: #6d6d6d;
+    padding-top: 30px;
+}
+
+.section-content {
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+.title1 {
+    font-size: 24px;
+    color: #0f4332;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.section-card-content p {
+    color: #6d6d6d;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+
+
+}
+
+.section-card-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.title1:hover {
+    color :#10C98F;
+}
